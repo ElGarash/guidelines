@@ -20,18 +20,18 @@ Core guidelines that govern how things work inside ELGarash.
 
 3. If the experiment is concerned with generating a new dataset, you should document the new dataset.
 
-   a. columns names.
+   a. Columns names.
 
-   b. naming schemes.
+   b. Naming schemes.
 
    c. etc...
 
 4. Keep a file called `terminology.md` and keep updating it with new terminology, stick to single terminology (e.g., don't use `sheik` and `reciter` interchangeably stick to one).
 5. Stick to a single notation
 
-   a. in mathematics.
+   a. In mathematics.
 
-   b. also for data annotation (e.g., the playback speed should be `x1.5`, don't use `1.5x` or `(1.5x)` interchangeably).
+   b. Also for data annotation (e.g., the playback speed should be `x1.5`, don't use `1.5x` or `(1.5x)` interchangeably).
 
 6. Figures should have titles below it with the following format:
 
@@ -44,7 +44,7 @@ Core guidelines that govern how things work inside ELGarash.
     </p>
    ```
 
-   a. `img_path` should match `<experiment name><figure number>`.
+   a. The `img_path` should match `<experiment name><figure number>`.
 
 7. Tables should have titles above it with the following format:
 
@@ -54,7 +54,7 @@ Core guidelines that govern how things work inside ELGarash.
 
    a. Add descriptive column/row names.
 
-   b. units should be specified in the column/row not in values.
+   b. Units should be specified in the column/row not in values, and put in parentheses, for example, `WER (%)`, or `Execution time (s)`.
 
 8. If you are comparing the result of two experiments, put the results of the old experiment in the current one, don't reference it.
 
