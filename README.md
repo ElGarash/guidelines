@@ -78,7 +78,8 @@ Core guidelines that govern how things work inside ELGarash.
 
 1. Keep your writings short and persuasive, and don’t use extra words → Hemingway app can help you with that.
 
-2. **_Magician’s Mar Magician’s Mark_**: Whenever you feel like writing “due to the fact that,” “as a result,” “therefore,” “for that reason,” “accordingly,” or even “because,” consider using a colon instead to make the reader ask “why”:
+2. **_Magician’s Mark_**: Whenever you feel like writing “due to the fact that,” “as a result,” “therefore,” “for that reason,” “accordingly,” or even “because,” consider using a colon instead to make the reader ask “why”:
+
 
 3. **Seize** the chance to **pepper** our sentences with such verbs. Try swapping the underlined language for some visual and evocative action words.
 
