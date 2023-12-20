@@ -12,13 +12,13 @@ Core guidelines that govern how things work inside ELGarash.
 
 1. An experiment should be lightweight, with a clear end goal, takes at max a week, and easily disposable.
 
-2. The end goal of the experiment should be clear, if the end goal is a UI for example, you should provide a mockup.
+2. The end goal of the experiment should be clear, if the end goal is a UI for example, we provide a mockup.
 
    a. the mockup should be simple, preferably done in tldraw.
 
-   b. If the experiment is data transformation (e.g., removing tashkel), you should provide a few examples.
+   b. If the experiment is data transformation (e.g., removing tashkel), we provide a few examples.
 
-3. If the experiment is concerned with generating a new dataset, you should document the new dataset.
+3. If the experiment is concerned with generating a new dataset, we document the new dataset.
 
    a. Columns names.
 
@@ -26,8 +26,9 @@ Core guidelines that govern how things work inside ELGarash.
 
    c. etc...
 
-4. Keep a file called `terminology.md` and keep updating it with new terminology, stick to single terminology (e.g., don't use `sheik` and `reciter` interchangeably stick to one).
-5. Stick to a single notation
+4. We keep a file called `terminology.md` and keep updating it with new terminology. We stick to single terminology (e.g., we don't use `sheik` and `reciter` interchangeably stick to one).
+
+5. We stick to a single notation
 
    a. In mathematics.
 
@@ -37,7 +38,7 @@ Core guidelines that govern how things work inside ELGarash.
 
    ```md
     <p align="center">
-       <span style="color: #888888;">_Figure <experiment name><figure number>_: <description>.</span>
+       <span style="color: #888888;"><em>Figure <experiment name><figure number></em>: <description>.</span>
     </p>
     <p align="center">
         <img src="./media/<img_path>" alt="<alt>">
@@ -52,21 +53,21 @@ Core guidelines that govern how things work inside ELGarash.
    <span style="color: #888888;">_Table <experiment name><table number>_: <description>.</span>
    ```
 
-   a. Add descriptive column/row names.
+   a. We add descriptive column/row names.
 
    b. Units should be specified in the column/row not in values, and put in parentheses, for example, `WER (%)`, or `Execution time (s)`.
 
-8. If you are comparing the result of two experiments, put the results of the old experiment in the current one, don't reference it.
+8. If we are comparing the result of two experiments, put the results of the old experiment in the current one, don't reference it.
 
 9. Links of the associated notebooks should added to the experiment report.
 
-10. If you are quoting, word to word, from a paper, you should use the quote syntax in markdown:
+10. If we are quoting, word to word, from a paper, we use the quote syntax in markdown:
 
     ```md
     > This is a quote
     ```
 
-11. Add references as the final section of the report.
+11. We add references as the final section of the report.
 
 12. No Experiment should go un-reviewed, open a PR, and someone else should review, sign-off, and approve your experiment.
 
@@ -76,18 +77,17 @@ Core guidelines that govern how things work inside ELGarash.
 
 # How to write?
 
-1. Keep your writings short and persuasive, and don’t use extra words → Hemingway app can help you with that.
+1. We Keep our writings short and persuasive, and don’t use extra words → Hemingway app can help with that.
 
-2. **_Magician’s Mark_**: Whenever you feel like writing “due to the fact that,” “as a result,” “therefore,” “for that reason,” “accordingly,” or even “because,” consider using a colon instead to make the reader ask “why”:
-
+2. **_Magician’s Mark_**: Whenever we feel like writing “due to the fact that,” “as a result,” “therefore,” “for that reason,” “accordingly,” or even “because,” we use a colon instead to make the reader ask “why”:
 
 3. **Seize** the chance to **pepper** our sentences with such verbs. Try swapping the underlined language for some visual and evocative action words.
 
-4. **That Reminds Me**: use analogies.
+4. **That Reminds Me**: we use analogies.
 
-5. Starting Gate: start sentences fast.
+5. **Starting Gate**: we start sentences fast.
 
-6. Parallels:
+6. **Parallels**:
 
    > Parallel structure means using the same pattern of words to show that two or more ideas have the same level of importance. This can happen at the word, phrase, or clause level. The usual way to join parallel structures is with the use of coordinating **[conjunctions](https://owl.purdue.edu/owl/general_writing/punctuation/independent_and_dependent_clauses/index.html)**  such as "and" or "or."
 
@@ -97,7 +97,7 @@ Core guidelines that govern how things work inside ELGarash.
 
 9. Check out [How to Write a Machine Learning Paper for (not so) Dummies](https://abdulrhmnghanem.notion.site/How-to-Write-a-Machine-Learning-Paper-for-not-so-Dummies-89e17d6fe034400abe7bee1abfaa1311?pvs=74)
 
-10. Use the right scientific tense, check out [How to Use Tenses within Scientific Writing](https://www.unr.edu/writing-speaking-center/writing-speaking-resources/how-to-use-tenses-within-scientific-writing).
+10. We use the right scientific tense, check out [How to Use Tenses within Scientific Writing](https://www.unr.edu/writing-speaking-center/writing-speaking-resources/how-to-use-tenses-within-scientific-writing).
 
 - Points 2, 3, 4, 5, and 6 are from _Five Ways to Write Like The Economist_.
 
