@@ -10,13 +10,13 @@ Core guidelines that govern how things work inside ELGarash.
 
 # How to manage experiments?
 
-1. An experiment should be lightweight, with a clear end goal, takes at max a week, and easily disposable.
+1. An experiment should be lightweight, with a clear end goal, take at max a week, and be easily disposable.
 
 2. The end goal of the experiment should be clear, if the end goal is a UI for example, we provide a mockup.
 
-   a. the mockup should be simple, preferably done in tldraw.
+   a. the mockup should be simple, preferably done in [tldraw](https://www.tldraw.com/).
 
-   b. If the experiment is data transformation (e.g., removing tashkel), we provide a few examples.
+   b. If the experiment is data transformation (e.g., removing tashkeel), we provide a few examples.
 
 3. If the experiment is concerned with generating a new dataset, we document the new dataset.
 
@@ -34,7 +34,7 @@ Core guidelines that govern how things work inside ELGarash.
 
    b. Also for data annotation (e.g., the playback speed should be `x1.5`, don't use `1.5x` or `(1.5x)` interchangeably).
 
-6. Figures should have titles below it with the following format:
+6. Figures should have titles below them with the following format:
 
    ```md
     <p align="center">
@@ -47,7 +47,7 @@ Core guidelines that govern how things work inside ELGarash.
 
    a. The `img_path` should match `<experiment name><figure number>`.
 
-7. Tables should have titles above it with the following format:
+7. Tables should have titles above them with the following format:
 
    ```md
    <span style="color: #888888;">_Table <experiment name><table number>_: <description>.</span>
@@ -57,9 +57,9 @@ Core guidelines that govern how things work inside ELGarash.
 
    b. Units should be specified in the column/row not in values, and put in parentheses, for example, `WER (%)`, or `Execution time (s)`.
 
-8. If we are comparing the result of two experiments, put the results of the old experiment in the current one, don't reference it.
+8. If we are comparing the results of two experiments, put the results of the old experiment in the current one, don't reference it.
 
-9. Links of the associated notebooks should added to the experiment report.
+9. Links to the associated notebooks should added to the experiment report.
 
 10. If we are quoting, word to word, from a paper, we use the quote syntax in markdown:
 
